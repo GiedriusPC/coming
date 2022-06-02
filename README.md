@@ -25,4 +25,4 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/
 
 ## Authors
 
-Giedrius: [Github]
+Giedrius: [Github] https://github.com/GiedriusPC
