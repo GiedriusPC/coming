@@ -1,10 +1,7 @@
 .form {
-
-}
-
-.form > * + * {
-    margin-top: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .form label {
@@ -14,9 +11,14 @@
 .form input,
 .form textarea {
     padding: 10px 0;
-    width: 100%;
     border: none;
     border-bottom: 2px solid #ccc;
     line-height: 20px;
-    resize: ;
+    font-size: 18px;
 }
+
+.form textarea {
+    min-height: 50px;
+    height: 100px;
+    max-height: 250px;
+    resize: vertical;
